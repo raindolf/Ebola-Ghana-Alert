@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu-style-a ul li a {
+	color: #FFF;
+	background-image: url('../images/_dark/menu-item-bg.png');
+	}
+	
+#menu-style-a ul li a:hover {
+	background-image: url('../images/_dark/menu-item-bg-hover.png');
+	}	
+	
+#menu-style-a ul li a.active {
+	color: #FFF;
+	}		
+	
+#content .button-top {
+	background-image: url('../images/_dark/button-top.png');
+	}
+	
+#content .button-top:hover {
+	background-image: url('../images/_dark/button-top-hover.png');
+	}		
+	
+#content .button-close {
+	background-image: url('../images/_dark/button-tab-close.png');
+	}
+	
+#content .button-close:hover {
+	background-image: url('../images/_dark/button-tab-close-hover.png');
+	}	
+	
+#wrap-menu-style-b .buttons a {
+	background: url('../images/_dark/button-menu.png') top center no-repeat;	
+	}		
+	
+.social-icons	li:hover {
+	background-image: url('../images/social-icons/_dark.png');
+	}		
+	
+a {
+	color: #999999;
+	}		
+	
+#subscribe a {
+	color: #FFF;	
+	background-image: url('../images/_dark/subscribe-button.png');
+	}	
+
+#subscribe a:hover {
+	background-image: url('../images/_dark/subscribe-button-hover.png');
+	}
+	
+#subscribe span {
+	color: #FFF;
+	}
+	
+#content .page header {
+	border-bottom-color: #999999;
+	}
+	
+#content article {
+	border-bottom-color: #999999;
+	}
+	
+#preloader {
+	background: url('../images/_dark/preloader-opacity-bg.png') top left repeat;
+	}			
+	
+#preloader div {
+	background-color: #999999;
+	}		
+		
+#menu-style-b > ul > li {
+	border-bottom-color: #6f6f6f;
+	background-color: #999999;
+	}		
+	
+#menu-style-b > ul > li > a {
+	color: #FFF;
+	}	
+	
+#menu-style-b > ul > li > a:hover {
+	color: #000;
+	}		
+
+#top {	
+	border-bottom-color: #6f6f6f;
+	}	
+	
+#menu-style-b > ul {
+	border-top-color: #6f6f6f;
+	}	
+	
+#wrap-menu-style-b .buttons a {
+	color: #FFF;
+	}		
+	
+#wrap-menu-style-b .buttons a:hover {
+	color: #000;
+	}	
+	

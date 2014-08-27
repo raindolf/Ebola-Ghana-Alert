@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu-style-a ul li a {
+	background-image: url('../images/_red/menu-item-bg.png');
+	}
+	
+#menu-style-a ul li a:hover {
+	background-image: url('../images/_red/menu-item-bg-hover.png');
+	}	
+	
+#content .button-top {
+	background-image: url('../images/_red/button-top.png');
+	}
+	
+#content .button-top:hover {
+	background-image: url('../images/_red/button-top-hover.png');
+	}		
+	
+#content .button-close {
+	background-image: url('../images/_red/button-tab-close.png');
+	}
+	
+#content .button-close:hover {
+	background-image: url('../images/_red/button-tab-close-hover.png');
+	}
+	
+#wrap-menu-style-b .buttons a {
+	background: url('../images/_red/button-menu.png') top center no-repeat;	
+	}
+	
+.social-icons	li:hover {
+	background-image: url('../images/social-icons/_red.png');
+	}		
+	
+a {
+	color: #bc440a;
+	}
+	
+#subscribe a {
+	background-image: url('../images/_red/subscribe-button.png');
+	}	
+
+#subscribe a:hover {
+	background-image: url('../images/_red/subscribe-button-hover.png');
+	}
+	
+#subscribe span {
+	color: #bc440a;
+	}
+	
+#content .page header {
+	border-bottom-color: #bc440a;
+	}
+	
+#content article {
+	border-bottom-color: #bc440a;
+	}
+	
+#preloader {
+	background: url('../images/_red/preloader-opacity-bg.png') top left repeat;
+	}		
+	
+#preloader div {
+	background-color: #bc440a;
+	}	
+		
+#menu-style-b > ul > li {
+	border-bottom-color: #982200;
+	background-color: #bc440a;
+	}		
+
+#top {	
+	border-bottom-color: #982200;
+	}	
+	
+#menu-style-b > ul {
+	border-top-color: #982200;
+	}	
+	

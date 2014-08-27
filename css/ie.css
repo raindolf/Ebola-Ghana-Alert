@@ -1,0 +1,24 @@
+#countdown h1 {
+    padding: 0 25px 0 15px;
+}
+
+#countdown p {
+    padding: 0 20px 0 15px;
+}
+
+#countdown ul li b {
+    left: -5px;
+}
+
+.wrap-input	input {
+    top: 4px;
+    height: 23px;
+    line-height: 23px;
+    background-color: #FFF;
+}
+
+.wrap-textarea textarea {
+    top: 4px;
+    height: 130px;
+    background-color: #FFF;
+}

@@ -1,0 +1,1 @@
+Ebola Ghana Alert is a community of developers and specialists working together to create mechanisms to bring awareness and to disseminate info on Ebola. This project is live here http://ebolaghanaalert.org/

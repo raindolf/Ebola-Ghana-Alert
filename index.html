@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+    <title>Ebola Ghana Alert</title>
+    <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic|Cabin|Ropa+Sans' />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
+    <link rel="stylesheet" type="text/css" href="css/color_green.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/media-queries.css" />
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/ie.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" />
+    <![endif]-->
+
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script src="---http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    <script type="text/javascript" src="js/jquery.tweet.js"></script>
+    <script type="text/javascript" src="js/jquery.jf.countdown-1.1.0.js"></script>
+    <script type="text/javascript" src="js/jquery.jf.subscribe-1.1.0.js"></script>
+    <script type="text/javascript" src="js/contact-form.js"></script>
+
+    <script type="text/javascript" src="js/_variables.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<!--- BEGIN #audio-panel-wrap --->
+<link type="text/css" rel="stylesheet" href="css/mediaelementplayer.css" />
+<script>
+    var $volumeAudioPlayer = 0.5;
+    var $loopAudioPlayer = 1;
+</script>
+<script src="js/mediaelement/mediaelement-and-player.min.js"></script>
+<script src="js/audio-player.js"></script>
+<div id="audio-panel-wrap">
+    <div class="audio-player-button"></div>
+
+    <div id="audio-panel">
+        <audio id="audio-player-1" autoplay="autoplay" loop="loop" volume="0.2">
+            <source src="http://media-libs.jfthemes.home/audio/adg3com_freeform.ogg" />
+            <source src="http://media-libs.jfthemes.home/audio/adg3com_freeform.mp3" />
+        </audio>
+    </div>
+</div>
+<!--- END #audio-panel-wrap --->
+
+
+<!-- BEGIN #fullscreen-video --><!--
+<link rel="stylesheet" type="text/css" href="css/mediaelementplayer.css" />
+<script src="js/mediaelement/mediaelement-and-player.min.js"></script>
+<script>
+    var $volumeVideoPlayer = 0.5;
+    var $loopVideoPlayer = true;
+</script>
+<script src="js/fullscreen-video.js"></script>
+<div id="fullscreen-video">
+    <div id="fullscreen-video-inner">
+        <video style="width:100%; height:100%" width="100%" height="100%" id="video-player" loop="loop" poster="pictures/1.jpg">
+            <source src="http://media-libs.jfthemes.home/video/party.ogv" />
+            <source src="http://media-libs.jfthemes.home/video/party.mp4" />
+        </video>
+    </div>
+</div>
+<!-- END #fullscreen-video -->
+
+<!-- BEGIN #fullscreen-YouTube --><!--
+<link rel="stylesheet" type="text/css" href="css/fullscreen-youtube.css" />
+<script>
+    var idYouTube = 'zbC6d0vQKew';
+    var autoplayYouTube = 1; //1 - autoplay video
+    var loopYouTube = 1; //1 - loop video
+    var fullscreenType = 1; //1 - fullscreen, 2 - stretched by longer side
+</script>
+<script src="js/fullscreen-youtube-lib.js"></script>
+<div id="fullscreen-youtube">
+    <div id="fs-youtube">
+        <div id="fs-youtube-player">You need Flash player 9+ and JavaScript enabled to view this video.</div>
+    </div>
+    <div id="fs-youtube-blank"></div>
+</div>
+<!-- END #fullscreen-YouTube -->
+
+<!-- BEGIN #fullscreen-slider -->
+<script>
+    var $sliderDelay = 4000; //delay for next image
+</script>
+<script type="text/javascript" src="js/fullscreen-slider.js"></script>
+<section id="fullscreen-slider">
+    <a href="pictures/1.jpg"></a>
+    <a href="pictures/2.png"></a>
+    <a href="pictures/3.jpg"></a>
+    <a href="pictures/4.jpg"></a>
+</section>
+
+<!-- END #fullscreen-slider -->
+
+<!-- BEGIN #twitter-top for mobile version -->
+<section id="twitter-top">
+    <article>
+        <div class="tweet"></div>
+    </article>
+    <a href="" class="button-twitter"></a>
+</section>
+<!-- END #twitter-top for mobile version -->
+
+<!-- BEGIN #top -->
+<section id="top">
+    <!-- BEGIN #top-inner -->
+    <div id="top-inner">
+
+        <!-- BEGIN #logo -->
+        <header id="logo"><img src="images/" title="" /></header>
+        <!-- END #logo -->
+
+        <!-- BEGIN #countdown -->
+        <section id="countdown">
+            <div class="countdown-background">
+                <h1>Ebola Ghana Alert</h1>
+            </div>
+            <div class="clear"></div>
+            <div class="countdown-background">
+                <p>Official Portal will launch in:</p>
+            </div>
+            <ul>
+                <li><b id="days">0</b><span class="long">days</span><span class="short">D</span></li>
+                <li><b id="hours">0</b><span class="long">hours</span><span class="short">H</span></li>
+                <li><b id="minutes">0</b><span class="long">minutes</span><span class="short">M</span></li>
+                <li><b id="seconds">0</b><span class="long">seconds</span><span class="short">S</span></li>
+            </ul>
+            <p>
+                <div id="days2"></div>
+                <div id="hours2"></div>
+                <div id="minutes2"></div>
+                <div id="seconds2"></div>
+            </p>
+        </section>
+        <!-- END #countdown -->
+
+        <!-- BEGIN #subscribe -->
+        <section id="subscribe">
+            <form name="subscribe-form" id="subscribe-form" method="post">
+                <div class="subscribe-wrap-input">
+                    <input type="text" id="subscribe-email" name="email" value="Enter your email address" onFocus="if(this.value == 'Enter your email address') {this.value = '';}" onBlur="if(this.value == '') {this.value = 'Enter your email address';}" alt="Enter your email address" />
+                </div>
+                <span class="message">Error text</span> <a href="" class="button-submit">Subscribe</a>
+            </form>
+        </section>
+        <!-- END #subscribe -->
+
+        <!-- BEGIN #player for slider -->
+        <section id="player">
+            <div class="btn-1 prev"><a href="" class="prev"></a></div>
+            <div class="btn-2 play-pause"><a href="" class="play-and-pause pause"></a></div>
+            <div class="btn-3 next"><a href="" class="next"></a></div>
+        </section>
+        <!-- END #player for slider -->
+
+        <!-- BEGIN menu Bubbles -->
+        <nav id="menu-style-a">
+            <ul>
+                <!--
+                <li><a href="#about-us-block"><span class="two-lines">Example <br>Two line</span></a></li>
+                -->
+                <li><a href="#about-us-block"><span>About Us</span></a></li>
+                <li><a href="#portfolio-block"><span>Partners</span></a></li>
+                <li><a href="#contact-us-block"><span>Contact Us</span></a></li>
+            </ul>
+        </nav>
+        <!-- END menu Bubbles -->
+
+    </div>
+    <!-- END #top-inner -->
+
+    <!-- BEGIN wrap mobile menu -->
+    <div id="wrap-menu-style-b">
+        <div class="buttons">
+            <a href="#menu-style-b" class="menu-tab">Menu</a><a href="#subscribe-bottom" class="subscribe-tab">Subscribe</a>
+        </div>
+        <!-- BEGIN menu for mobile version -->
+        <nav id="menu-style-b">
+            <ul class="menu">
+                <li><a href="#about-us-block">About Us</a></li> <li><a href="#portfolio-block">Portfolio</a></li>
+                <li><a href="#contact-us-block">Contact Us</a></li>
+                <!-- BEGIN #social-icons for mobile version -->
+                <li class="wrap-social-icons">
+                    <div class="clear"></div>
+                </li>
+                <!-- END #social-icons for mobile version -->
+            </ul>
+        </nav>
+        <!-- END menu for mobile version -->
+
+        <!-- BEGIN #subscribe-bottom for mobile version-->
+        <section id="subscribe-bottom">
+            <form name="subscribe-2" method="post">
+                <div class="wrap-input">
+                    <span><input name="email" value="Enter your email address" onFocus="if(this.value == 'Enter your email address') {this.value = '';}" onBlur="if(this.value == '') {this.value = 'Enter your email address';}" alt="Enter your email address" /></span>
+                </div>
+                <span class="message"></span>
+
+                <div class="subscribe-buttons">
+                    <a href="" class="button-submit">Submit</a><a href="" class="cancel">Close</a></div>
+            </form>
+        </section>
+        <!-- END #subscribe-bottom for mobile version-->
+    </div>
+    <!-- END wrap mobile menu -->
+
+    <section id="preloader">
+        <div></div>
+    </section>
+</section>
+<!-- END #top -->
+
+<div class="clear"></div>
+
+<!-- BEGIN #content -->
+<section id="content">
+
+    <!-- BEGIN Block #about-us-block -->
+    <section class="page" id="about-us-block">
+        <header>
+            <h1>Abouts Us</h1>
+        </header>
+        <article>
+            <div class="inner">
+                <a href="#" class="button-close"></a> <a href="#top" class="button-top"></a>
+
+                <!--BEGIN – Enter your html -->
+                <h2>About us</h2>
+
+                <p> Technology as a tool in crisis situations.
+THE PURPOSE OF THIS SITE IS TO CONNECT TECHNOLOGISTS AND ORGANIZERS IN ORDER TO LEARN AND UNDERSTAND WHAT IS HAPPENING ON THE GROUND WITH THIS CRISIS AND HOW WE CAN COLLABORATE TO USE TECHNOLOGY EFFECTIVELY. <p/>
+<h3> Ebola </h3>
+<P> Ebola is what scientists call a haemorraghic fever - it operates by making its victims bleed from almost anywhere on their body. Usually, victims bleed to death from Ebola. Ebola is highly contagious; being transmitted via contact with body fluids such as blood, saliva, semen or body discharges. <p/>
+               
+                
+                <!--END – Enter your html -->
+
+            </div>
+        </article>
+    </section>
+    <!-- END Block #about-us-block -->
+
+    <!-- BEGIN Block #portfolio-block -->
+    <section class="page" id="portfolio-block">
+        <header>
+            <h1>Partners</h1>
+        </header>
+        <article>
+            <div class="inner">
+                <a href="#" class="button-close"></a> <a href="#top" class="button-top"></a>
+
+                <!--BEGIN – Enter your html -->
+                <h2>Our partners.</h2>
+
+                <!-- BEGIN Portfolio -->
+                <div class="wrap-portfolio">
+                    <section class="portfolio">
+                        <figure>
+                            <a href="pictures/portfolio/1.jpg" title="preview" rel="prettyPhoto[pp_one]"><img src="pictures/portfolio/1-small.jpg" /></a>
+                            <figcaption>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Lorem ipsum dolor sit amet, consec Lorem ipsum dolor sit amet, consec consec Lorem ipsum dolor sit amet, consec consec Lorem ipsum dolor sit amet, consec</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="pictures/portfolio/2.jpg" title="preview" rel="prettyPhoto[pp_one]"><img src="pictures/portfolio/2-small.jpg" /></a>
+                        </figure>
+                        <figure>
+                            <img src="pictures/portfolio/3-small.jpg" />
+                            <figcaption>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit.</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="pictures/portfolio/4.jpg" title="preview" rel="prettyPhoto[pp_one]"><img src="pictures/portfolio/4-small.jpg" /></a>
+                            <figcaption>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit.</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="pictures/portfolio/5.jpg" title="preview" rel="prettyPhoto[pp_one]"><img src="pictures/portfolio/5-small.jpg" /></a>
+                        </figure>
+                        <figure>
+                            <img src="pictures/portfolio/6-small.jpg" />
+                            <figcaption>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit.</figcaption>
+                        </figure>
+                    </section>
+                    <div class="clear-float"></div>
+                </div>
+                <!-- END Portfolio -->
+
+                <h2>Our Collarboration</h2>
+
+                <p>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit. Fusce susvarius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. .</p>
+                <!--END – Enter your html -->
+
+            </div>
+        </article>
+    </section>
+    <!-- END Block #portfolio-block -->
+
+    <!-- BEGIN Block #contact-us-block -->
+    <section class="page" id="contact-us-block">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <article>
+            <div class="inner">
+                <a href="#" class="button-close"></a> <a href="#top" class="button-top"></a>
+
+                <!--BEGIN – Enter your html -->
+                <!--BEGIN google map -->
+                <h2>Our Location</h2>
+
+                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+                <script type="text/javascript">
+                    var $googleMapsZoom = 12; // zoom Google Maps
+                    var $googleMapsLat = 43.6737156885; //latitude
+                    var $googleMapsLng = -79.3501482013; //longitude
+                </script>
+                <script type="text/javascript" src="js/google-maps.js"></script>
+
+                <div id="location"></div>
+                <!--END google map -->
+
+                <div id="box-address-contact-from">
+
+                <!--BEGIN Our Address -->
+                    <section id="address">
+                        <h2>Our Address</h2>
+
+                        <!--BEGIN – Enter your html -->
+                        <p>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Lorem ipsum dolor sit amet, consec Lorem ipsum dolor sit amet, consec consec Lorem ipsum dolor sit amet, consec consec Lorem ipsum dolor sit amet, consec</p>
+                        <ul>
+                            <li>Tel: +233(244)111</li> <li>Fax: +233(244)222</li> <li>E-Mail: <a href="mailto:">info@ebolaghanaalert.org</a></li>
+                        </ul>
+                        <!--END – Enter your html -->
+
+                    </section>
+                    <!--END Our Address -->
+
+                    <!--BEGIN Contact Form -->
+                    <section id="contact-from">
+                        <h2>Contact Form</h2>
+
+                        <form name="jf_cf" id="jf_cf" method="post">
+                            <label for="jf_cf_name" class="red-star">Name:</label>
+
+                            <div class="wrap-input">
+                                <span><input class="required" type="text" value="" id="jf_cf_name" name="jf_cf_name" /></span>
+                            </div>
+                            <span class="message jf_cf_name "></span> <label for="jf_cf_email" class="red-star">Email:</label>
+
+                            <div class="wrap-input">
+                                <span><input class="required" type="text" value="" id="jf_cf_email" name="jf_cf_email" /></span>
+                            </div>
+                            <span class="message jf_cf_email "></span>
+
+                            <label for="jf_cf_message" class="red-star">Message:</label>
+
+                            <div class="wrap-textarea">
+                                <span><textarea class="required" name="jf_cf_message" id="jf_cf_message"></textarea></span>
+                            </div>
+                            <span class="message jf_cf_message "></span>
+
+                            <a href="" id="jf_cf_submit"><span>Send</span></a> <input type="submit" value="SEND" />
+
+                            <input type="hidden" name="jf_countdown_action" value="" /> <input type="hidden" id="jf_cf_success" name="jf_cf_success" value="" />
+                        </form>
+                        <div class="clear"></div>
+                        <a href="" style="display: none;" id="jf_cf_button_show">Send another message</a>
+                    </section>
+                    <!--END Contact Form -->
+
+                    <div class="clear"></div>
+                </div>
+                <!--END – Enter your html -->
+            </div>
+        </article>
+    </section>
+    <!-- END Block #contact-us-block -->
+
+</section>
+<!-- END #content -->
+
+<footer id="footer">
+    <div class="footer-inner">
+        <!--BEGIN #social-icons -->
+        <ul class="social-icons">
+            <li><a href="" class="twitter" title="twitter"></a></li>
+            <li><a href="" class="facebook" title="facebook"></a></li>
+            <li><a href="" class="skype" title="skype"></a></li>
+            <li><a href="" class="youtube" title="YouTube"></a></li>
+             <!--
+            <li><a href="" class="soundcloud" title="soundcloud"></a></li>
+            <li><a href="" class="instagram" title="instagram"></a></li>
+           
+            <li><a href="" class="rss" title="rss"></a></li>
+            <li><a href="" class="twitter" title="twitter"></a></li>
+            <li><a href="" class="facebook" title="facebook"></a></li>
+            <li><a href="" class="dribbble" title="dribbble"></a></li> <li><a href="" class="rss" title="rss"></a></li>
+            <li><a href="" class="skype" title="skype"></a></li> <li><a href="" class="digg" title="Digg"></a></li> <li><a href="" class="googlebuzz" title="Google Buzz"></a></li>
+            <li><a href="" class="delicious" title="Delicious"></a></li>
+            <li><a href="" class="tumbler" title="Tumbler"></a></li>
+            <li><a href="" class="plixi" title="Plixi"></a></li>
+            <li><a href="" class="stubleupon" title="StubleUpon"></a></li>
+            <li><a href="" class="lastfm" title="LastFM"></a></li>
+            <li><a href="" class="mobypicture" title="MobyPicture"></a></li>
+            <li><a href="" class="youtube" title="YouTube"></a></li>
+            <li><a href="" class="vimeo" title="Vimeo"></a></li>
+            <li><a href="" class="myspace" title="MySpace"></a></li> <li><a href="" class="dropbox" title="Dropbox"></a></li>
+            <li><a href="" class="foursquare" title="Four Square"></a></li>
+            <li><a href="" class="gowalla" title="Gowalla"></a></li>
+            <li><a href="" class="ichat" title="iChat"></a></li> <li><a href="" class="googleplus" title="Google +"></a></li>
+            -->
+        </ul>
+        <!--END #social-icons -->
+
+        <!--BEGIN #twitter-bottom -->
+        <section id="twitter-bottom">
+            <div class="tweet"></div>
+        </section>
+        <!--END #twitter-bottom -->
+    </div>
+</footer>
+</body>
+</html>

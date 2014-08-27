@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu-style-a ul li a {
+	background-image: url('../images/_rosy/menu-item-bg.png');
+	}
+	
+#menu-style-a ul li a:hover {
+	background-image: url('../images/_rosy/menu-item-bg-hover.png');
+	}	
+	
+#content .button-top {
+	background-image: url('../images/_rosy/button-top.png');
+	}
+	
+#content .button-top:hover {
+	background-image: url('../images/_rosy/button-top-hover.png');
+	}		
+	
+#content .button-close {
+	background-image: url('../images/_rosy/button-tab-close.png');
+	}
+	
+#content .button-close:hover {
+	background-image: url('../images/_rosy/button-tab-close-hover.png');
+	}	
+	
+#wrap-menu-style-b .buttons a {
+	background: url('../images/_rosy/button-menu.png') top center no-repeat;	
+	}		
+	
+.social-icons	li:hover {
+	background-image: url('../images/social-icons/_rosy.png');
+	}		
+	
+a {
+	color: #c70072;
+	}		
+	
+#subscribe a {
+	background-image: url('../images/_rosy/subscribe-button.png');
+	}	
+
+#subscribe a:hover {
+	background-image: url('../images/_rosy/subscribe-button-hover.png');
+	}
+	
+#subscribe span {
+	color: #c70072;
+	}
+	
+#content .page header {
+	border-bottom-color: #c70072;
+	}
+	
+#content article {
+	border-bottom-color: #c70072;
+	}
+	
+#preloader {
+	background: url('../images/_rosy/preloader-opacity-bg.png') top left repeat;
+	}		
+	
+#preloader div {
+	background-color: #c70072;
+	}	
+		
+#menu-style-b > ul > li {
+	border-bottom-color: #9b0059;
+	background-color: #c70072;
+	}		
+
+#top {	
+	border-bottom-color: #9b0059;
+	}	
+	
+#menu-style-b > ul {
+	border-top-color: #9b0059;
+	}	
+	

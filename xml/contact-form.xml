@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<contactform>
+	<recipient>iraindolf@gmail.com</recipient>
+	<email_agent>info@ebolaghanaalert.com</email_agent>	
+	<subject>Message from site. Sender </subject>
+	<messages>
+		<email_blank>This field is required.</email_blank>
+		<email_invalid>Please enter a valid email address.</email_invalid>
+		<name_blank>This field is required.</name_blank>
+		<message_blank>This field is required.</message_blank>
+		<error_fields>Please, fill in all fields.</error_fields>
+		<send_ok>Thank you, your message has been sent.</send_ok>
+		<send_error>Error! Message is not sent!</send_error>		
+	</messages>
+</contactform>

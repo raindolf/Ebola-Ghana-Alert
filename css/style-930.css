@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* #logo
+======================================== */
+#logo {
+	left: 40px;
+	}	
+
+/* #subscribe
+======================================== */
+#subscribe {
+	left: 30px;
+	}
+
+/* #countdown
+======================================== */
+#countdown {
+	right: 30px;
+    max-width: 600px;
+	}
+
+.countdown-background {
+    float: none;
+	text-align: center;
+	margin-top: 0px;
+    padding: 0 18px;
+	}
+
+/* #menu-style-a
+======================================== */
+#menu-style-a {
+	right: 30px;
+	}	
+
+/* #footer
+======================================== */
+.footer-inner	{
+	margin: 0 30px 0 50px;
+	}
+
+/* #player
+======================================== */
+#player {
+	margin-left: -90px;
+	}

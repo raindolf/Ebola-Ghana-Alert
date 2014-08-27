@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(style-600.css);
+
+/* #top
+======================================== */
+#top {	
+	rem-height: 740px;
+	}
+
+/* HEADER#Logo
+======================================== */
+#logo {
+	padding: 26px 0 28px 0;
+	}		
+
+/* #countdown
+======================================== */
+#countdown h1 {
+	font-size: 51px;
+	line-height: 64px;
+	}
+	
+#countdown p {
+	font-size: 21px;
+	line-height: 27px;
+	}	
+
+/* #twitter-top
+======================================== */
+#twitter-top .button-twitter {
+	right: 30px;
+	}	
+
+/* #contact-from
+======================================== */
+#contact-from	{
+	width: 410px;
+	}			
+	
+.wrap-input {
+	width: 400px;
+	}
+	
+.wrap-input	span {
+	width: 390px;
+	}	
+	
+.wrap-input	input {
+	width: 390px;
+	}	
+	
+.wrap-textarea {
+	width: 400px;
+	}
+	
+.wrap-textarea span {
+	width: 390px;
+	}	
+	
+.wrap-textarea textarea {
+	width: 390px;
+	}
+
+/* #audio-panel
+======================================== */
+#audio-panel-wrap {
+	top: 89px;
+	right: 75px;	
+	}
+		
+#audio-panel-wrap.audio-player-jump {
+	top: 89px;
+	}	
