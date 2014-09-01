@@ -12,7 +12,7 @@ var dateOpen = {
     utc : 180, //+UTC value in minutes
     year : 2014, //full format YYYY
     month : 9, //value from 1 to 12
-    day : 11, //value from 1 to 31
+    day : 21, //value from 1 to 31
     hour : 10, //value from 0 to 23
     minutes : 00 //value from 0 to 59
 };
